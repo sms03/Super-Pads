@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Philosopher&display=swap");
+
+body{
+    font-family: 'Philosopher', sans-serif;
+    margin: 0;
+    text-align: center;
+    color: azure;
+    background-color: black;
+}
+
+.keys{
+    margin: 0 auto;
+    max-width: 600px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.key{
+    width: 160px;
+    height: 160px;
+    float: left;
+    transition: all 0.07s;
+    border-radius: 5px;
+    background-color: palevioletred;
+    margin: 20px;
+}
+
+kbd{
+    display: block;
+    padding-top: 30px;
+    font-size: 60px;
+    color: yellow;
+}
+
+.playing{
+    box-shadow: 0 0 30px 0 rgba(255, 255, 255, 0.5);
+}
